@@ -7,9 +7,27 @@
   <link rel="stylesheet" href="css/styles.css">
   <script src="js/jquery-3.5.0.js"></script>
   <script src="js/scripts.js"></script>
-  <title>Document</title>
+  <title>Shouting Match</title>
 </head>
 <body>
-  
+  <div class="container">
+    <h1>Shouting Machine</h1>
+    <p>Type a sentence into the field below, then hit submit.</p>
+
+    <div class="form">
+      <form id="shouting-form">
+        <div class="form-group">
+          <label for="user-sentence">Your sentence:</label>
+          <input type="text" id="user-sentence" class="form-control">
+        </div>
+
+        <button class="btn" type="submit">Submit Sentence</button> 
+      </form>
+    </div>
+
+    <div class="shouting-output">
+      <p class="sentence-shouting"></p>
+    </div>
+  </div>
 </body>
 </html>
